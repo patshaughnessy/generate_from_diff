@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "generate_from_diff"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Create a Rails 3 generator from git commit history}
+    gem.description = %Q{Create a Rails 3 generator from git commit history}
     gem.email = "pat@patshaughnessy.net"
     gem.homepage = "http://github.com/patshaughnessy/generate_from_diff"
     gem.authors = ["Pat Shaughnessy"]
