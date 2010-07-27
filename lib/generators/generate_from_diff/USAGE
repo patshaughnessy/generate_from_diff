@@ -1,5 +1,3 @@
-= generate_from_diff
-
 Create a Rails 3 generator from git commit history. Example:
 
   rails generate generator_from_diff my_change HEAD~1 HEAD
@@ -10,7 +8,3 @@ applied using Larry Wall's GNU patch command to whatever files are present.
 
 This is a way of recording code changes made in one Rails project, and playing them back
 in another.
-
-== Copyright
-
-Copyright (c) 2010 Pat Shaughnessy. See LICENSE for details.
